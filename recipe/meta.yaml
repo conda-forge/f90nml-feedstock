@@ -23,7 +23,6 @@ requirements:
     - python
 
 test:
-  # Python imports
   imports:
     - f90nml
 
@@ -31,7 +30,6 @@ about:
   home: http://github.com/marshallward/f90nml
   license: Apache-2.0
   summary: 'Fortran 90 namelist parser'
-  license_family: APACHE
   license_file: LICENSE
 
 extra:
