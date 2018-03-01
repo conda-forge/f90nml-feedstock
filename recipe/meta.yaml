@@ -1,5 +1,5 @@
-{% set version = "0.21" %}
-{% set sha256 = "df0538bfd977f6e72d3bbf6beb8bd7dc7c01882d5a89e99fbfdfbf1aa5b24b8b" %}
+{% set version = "1.0.2" %}
+{% set sha256 = "cfebfc34dd8969b1a9424363407ca7915481f47377819b204eaa08140fd4e7bb" %}
 
 package:
   name: f90nml
