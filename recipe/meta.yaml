@@ -1,5 +1,5 @@
-{% set version = "1.0.2" %}
-{% set sha256 = "cfebfc34dd8969b1a9424363407ca7915481f47377819b204eaa08140fd4e7bb" %}
+{% set version = "1.1.2" %}
+{% set sha256 = "c5f29e4b7159f0db8a9cfe801b692384a603f2cb40f5da1c038897eb98064f7d" %}
 
 package:
   name: f90nml
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1000
+  number: 0
   script: python setup.py install
 
 requirements:
