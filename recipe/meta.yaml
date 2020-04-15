@@ -1,5 +1,5 @@
-{% set version = "1.1.2" %}
-{% set sha256 = "c5f29e4b7159f0db8a9cfe801b692384a603f2cb40f5da1c038897eb98064f7d" %}
+{% set version = "1.2" %}
+{% set sha256 = "07fbb9101f218ce89ccc34264ec81116edc9ed0ab69ad1cd8316f19ea694cd2e" %}
 
 package:
   name: f90nml
@@ -12,7 +12,7 @@ source:
 
 build:
   number: 0
-  script: python setup.py install
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   build:
@@ -29,7 +29,7 @@ test:
 about:
   home: http://github.com/marshallward/f90nml
   license: Apache-2.0
-  summary: 'Fortran 90 namelist parser'
+  summary: Fortran 90 namelist parser
   license_file: LICENSE
 
 extra:
