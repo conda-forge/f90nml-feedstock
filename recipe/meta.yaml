@@ -17,9 +17,8 @@ build:
 
 requirements:
   host:
-    - pip
     - python
-    - tests
+    - pip
   run:
     - python
 
