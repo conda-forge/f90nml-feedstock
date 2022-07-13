@@ -1,5 +1,5 @@
 {% set name = "f90nml" %}
-{% set version = "1.4.2" %}
+{% set version = "1.4.3" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/f90nml-{{ version }}.tar.gz
-  sha256: becacc8bed78efa3873438027f898fdd42f3b447c94cd29ae3033d6ff88ab9bb
+  sha256: e2f3cd23d821ebcaef66ce406485b35aa08aae0df92c4bece76e227e5bd146e1
 
 build:
   number: 0
