@@ -1,11 +1,11 @@
-About f90nml
-============
+About f90nml-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/f90nml-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/marshallward/f90nml
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/f90nml-feedstock/blob/main/LICENSE.txt)
 
 Summary: Fortran 90 namelist parser
 
