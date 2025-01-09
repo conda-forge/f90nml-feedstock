@@ -144,5 +144,4 @@ Feedstock Maintainers
 =====================
 
 * [@MuellerSeb](https://github.com/MuellerSeb/)
-* [@cpelley](https://github.com/cpelley/)
 
